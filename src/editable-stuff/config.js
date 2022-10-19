@@ -38,7 +38,7 @@ const repos = {
   heading: "Recent Projects",
   gitHubUsername: "tundeblockchain", //i.e."johnDoe12Gh"
   reposLength: 2,
-  specificRepos: [],
+  specificRepos: ["rent-app", "music-nft-project", "NFT-marketplace"],
 };
 
 // Leadership SECTION
