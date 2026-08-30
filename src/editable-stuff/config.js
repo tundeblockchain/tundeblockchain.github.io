@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4361ee, #7c3aed, #3b82f6, #0ea5e9",
+  gradientColors: "#5eead4, #99f6e4, #2dd4bf, #6ee7b7",
   firstName: "Oyetunde",
   middleName: "",
   lastName: "Awotunde",
@@ -34,16 +34,6 @@ const projects = {
   heading: "Recent Projects",
   data: [
     {
-      name: "Cinema Ticketing",
-      description: "React frontend + blockchain contracts for NFT cinema ticketing.",
-      github: [
-        "https://github.com/tundeblockchain/cinema-ticketing",
-        "https://github.com/tundeblockchain/cinema-ticketing-backend"
-      ],
-      liveUrl: "https://mycinematicketing.netlify.app/",
-      image: require("../assets/img/projects/cinema-ticketing.png"),
-    },
-    {
       name: "Property Score",
       description: "AI property-investment scoring for UK listings (Rightmove / Zoopla / OnTheMarket).",
       github: ["https://github.com/tundeblockchain/Property-Score-Frontend"],
@@ -58,25 +48,21 @@ const projects = {
       image: require("../assets/img/projects/colorcharm.png"),
     },
     {
-      name: "Restaurant",
-      description: "Restaurant ordering frontend application.",
-      github: ["https://github.com/tundeblockchain/Restaurant-Front-End"],
-      liveUrl: null,
-      image: null,
-    },
-    {
-      name: "DEX Trader Backend",
-      description: "Simplified order-matching backend demo.",
-      github: ["https://github.com/tundeblockchain/DEX-Trader-Backend"],
-      liveUrl: null,
-      image: null,
-    },
-    {
       name: "Wende Studio",
       description: "AI interior design / room refresh with shoppable results.",
       github: null,
       liveUrl: "https://wendestudio.com",
       image: require("../assets/img/projects/wende-studio.png"),
+    },
+    {
+      name: "Cinema Ticketing",
+      description: "React frontend + blockchain contracts for NFT cinema ticketing.",
+      github: [
+        "https://github.com/tundeblockchain/cinema-ticketing",
+        "https://github.com/tundeblockchain/cinema-ticketing-backend"
+      ],
+      liveUrl: "https://mycinematicketing.netlify.app/",
+      image: require("../assets/img/projects/cinema-ticketing.png"),
     },
   ],
 };
