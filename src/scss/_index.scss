@@ -70,7 +70,7 @@ code {
   color: inherit;
   
   &:hover {
-    color: #4361ee !important;
+    color: #14b8a6 !important;
   }
 }
 
@@ -201,12 +201,12 @@ code {
   }
   
   .btn-dark {
-    background: #4361ee;
-    border-color: #4361ee;
+    background: #14b8a6;
+    border-color: #14b8a6;
     
     &:hover {
-      background: #3451de;
-      border-color: #3451de;
+      background: #0d9488;
+      border-color: #0d9488;
     }
   }
 }
@@ -244,8 +244,8 @@ code {
     font-weight: 500;
     
     &.active {
-      color: #4361ee;
-      border-bottom-color: #4361ee;
+      color: #14b8a6;
+      border-bottom-color: #14b8a6;
       background: transparent;
     }
     
@@ -269,7 +269,7 @@ code {
 }
 
 .progress-bar {
-  background: linear-gradient(90deg, #4361ee, #7c3aed);
+  background: linear-gradient(90deg, #14b8a6, #2dd4bf);
   border-radius: 4px;
 }
 
@@ -363,7 +363,7 @@ footer p {
   color: #64748b;
   
   a {
-    color: #4361ee;
+    color: #14b8a6;
     font-weight: 500;
   }
 }

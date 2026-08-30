@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4361ee, #7c3aed, #3b82f6, #0ea5e9",
+  gradientColors: "#5eead4, #99f6e4, #2dd4bf, #6ee7b7",
   firstName: "Oyetunde",
   middleName: "",
   lastName: "Awotunde",
