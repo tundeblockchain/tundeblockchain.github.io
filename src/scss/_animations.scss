@@ -1,3 +1,4 @@
+// Subtle star animation
 @keyframes animStar {
   from {
     transform: translateY(0px);
@@ -7,54 +8,56 @@
   }
 }
 
+// Smoother gradient animation
 @-webkit-keyframes BackgroundAnimation {
   0% {
-    background-position: 0% 7%;
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 94%;
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 7%;
+    background-position: 0% 50%;
   }
 }
 
 @-moz-keyframes BackgroundAnimation {
   0% {
-    background-position: 0% 7%;
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 94%;
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 7%;
+    background-position: 0% 50%;
   }
 }
 
 @-o-keyframes BackgroundAnimation {
   0% {
-    background-position: 0% 7%;
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 94%;
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 7%;
+    background-position: 0% 50%;
   }
 }
 
 @keyframes BackgroundAnimation {
   0% {
-    background-position: 0% 7%;
+    background-position: 0% 50%;
   }
   50% {
-    background-position: 100% 94%;
+    background-position: 100% 50%;
   }
   100% {
-    background-position: 0% 7%;
+    background-position: 0% 50%;
   }
 }
 
+// Skills progress animation
 @keyframes progress {
   from {
     transform: scaleX(0);
@@ -63,5 +66,17 @@
   to {
     transform-origin: left;
     transform: scaleX(1);
+  }
+}
+
+// Fade in animation for sections
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
