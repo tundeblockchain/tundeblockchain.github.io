@@ -4,7 +4,7 @@ import {
   navBar,
   mainBody,
   about,
-  repos,
+  projects,
   leadership,
   skills,
   getInTouch,
@@ -47,12 +47,10 @@ const Home = React.forwardRef((props, ref) => {
           <Experience experiences={experiences}/>
         )
       }
-      {repos.show && (
+      {projects.show && (
         <Project
-          heading={repos.heading}
-          username={repos.gitHubUsername}
-          length={repos.reposLength}
-          specfic={repos.specificRepos}
+          heading={projects.heading}
+          projects={projects.data}
         />
       )}
       {leadership.show && (

@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  gradientColors: "#4361ee, #7c3aed, #3b82f6, #0ea5e9",
   firstName: "Oyetunde",
   middleName: "",
   lastName: "Awotunde",
@@ -29,16 +29,56 @@ const about = {
 };
 
 // PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
-//      i.e: reposLength: 0,
-// If you want to display specfic projects, add the repository names,
-//      i.e ["repository-1", "repo-2"]
-const repos = {
+const projects = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "tundeblockchain", //i.e."johnDoe12Gh"
-  reposLength: 2,
-  specificRepos: ["rent-app", "music-nft-project", "NFT-marketplace"],
+  data: [
+    {
+      name: "Cinema Ticketing",
+      description: "React frontend + blockchain contracts for NFT cinema ticketing.",
+      github: [
+        "https://github.com/tundeblockchain/cinema-ticketing",
+        "https://github.com/tundeblockchain/cinema-ticketing-backend"
+      ],
+      liveUrl: "https://mycinematicketing.netlify.app/",
+      image: require("../assets/img/projects/cinema-ticketing.png"),
+    },
+    {
+      name: "Property Score",
+      description: "AI property-investment scoring for UK listings (Rightmove / Zoopla / OnTheMarket).",
+      github: ["https://github.com/tundeblockchain/Property-Score-Frontend"],
+      liveUrl: "https://property-score.netlify.app/",
+      image: require("../assets/img/projects/property-score.png"),
+    },
+    {
+      name: "Color Charm",
+      description: "AI-generated printable colouring pages.",
+      github: ["https://github.com/tundeblockchain/Colouring-Frontend"],
+      liveUrl: "https://colorcharm.app",
+      image: require("../assets/img/projects/colorcharm.png"),
+    },
+    {
+      name: "Restaurant",
+      description: "Restaurant ordering frontend application.",
+      github: ["https://github.com/tundeblockchain/Restaurant-Front-End"],
+      liveUrl: null,
+      image: null,
+    },
+    {
+      name: "DEX Trader Backend",
+      description: "Simplified order-matching backend demo.",
+      github: ["https://github.com/tundeblockchain/DEX-Trader-Backend"],
+      liveUrl: null,
+      image: null,
+    },
+    {
+      name: "Wende Studio",
+      description: "AI interior design / room refresh with shoppable results.",
+      github: null,
+      liveUrl: "https://wendestudio.com",
+      image: require("../assets/img/projects/wende-studio.png"),
+    },
+  ],
 };
 
 // Leadership SECTION
@@ -127,4 +167,4 @@ const experiences = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, projects, skills, leadership, getInTouch, experiences };
